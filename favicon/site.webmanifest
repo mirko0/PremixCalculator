@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Premix Calculator",
+    "short_name": "PremixCalc",
     "icons": [
         {
             "src": "/favicon/android-chrome-192x192.png",

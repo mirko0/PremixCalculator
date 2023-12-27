@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+}
+
+.container {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Responsive container width */
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.gold-gradient-text {
+    background-image: linear-gradient(45deg, #cca136, #ee7a06);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.content {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer {
+    background-color: #111;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style the number input */
+input[type=number] {
+    width: 60%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+}
+
+/* Style the number input on focus */
+input[type=number]:focus {
+    border-color: #f37a1f;
+    outline: none;
+}
+
+.result {
+    margin-top: 2rem;
+    font-size: xx-large;
+}

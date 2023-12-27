@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Minimalistic Dark-themed Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="gold-gradient-text">Premix Calculator</h1>
+        <div class="content">
+
+            <label class="ratio-label" for="fuel">Fuel Amount (Liters)</label><br>
+            <input class="ratio-label" type="number" id="fuel" name="fuel" placeholder="Fuel Amount" />
+            <br>
+            <br>
+            <label id="ratio-label" for="ratio">Ratio (1:50)</label><br>
+            <input min="0" max="100" value="50" type="number" id="ratio" name="ratio" placeholder="Ratio" />
+
+
+            <div class="result" style="display: none;">
+                <p>
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <span>Made with ❤️ by &nbsp;</span>
+        <img
+            src="https://img.shields.io/twitter/follow/mirko0_?label=%40MIRKO0_&style=flat&logo=x&logoColor=%23000000&labelColor=%230074D9&color=%230074D9" />
+    </footer>
+</body>
+
+</html>

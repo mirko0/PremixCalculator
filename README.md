@@ -4,7 +4,7 @@ Premix Calculator
   <p align="center">
    <img width="100px" height="100px" alt="fuel" src="https://i.imgur.com/yxyL9ff.png">
   <br />
-   Simple tool for calculation fuel-to-oil ratios, ideal for two-stroke engines.
+   Simple tool for calculating fuel-to-oil ratios, ideal for two-stroke engines.
   </p>
 
   <p align="center">
